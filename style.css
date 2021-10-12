@@ -194,7 +194,7 @@ header nav ul li:hover {
 }
 
 .cards {
-    width: 70%;
+    width: 90%;
     max-width: 600px;
     margin: auto;
     margin-bottom: 30px;
@@ -208,7 +208,7 @@ header nav ul li:hover {
 }
 
 .cards img {
-    width: 70px;
+    width: 80px;
     border-radius: 50%;
 }
 
@@ -318,11 +318,11 @@ footer img {
 
 .list-one,
 .list-two {
-    width: max-content;
     margin-top: 50px;
 }
 
 .list-one > * {
+    width: max-content;
     text-decoration: none;
     background-image: linear-gradient(90deg, #EE9B00, #AE2012);
     background-size: 0% 1px;
@@ -332,6 +332,7 @@ footer img {
 }
 
 .list-two > * {
+    width: max-content;
     text-decoration: none;
     background-image: linear-gradient(90deg, #EE9B00, #AE2012);
     background-size: 0% 1px;
@@ -347,8 +348,6 @@ footer img {
 .list-two > *:hover {
     background-size: 100% 2px;
 }
-
-
 
 .social-icons {
     display: flex;
