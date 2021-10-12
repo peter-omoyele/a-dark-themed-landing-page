@@ -36,7 +36,13 @@ header nav ul {
 }
 
 header nav ul li:hover {
-    text-decoration: underline;
+    border-bottom: 2px solid #AE2012;
+  
+}
+
+.logo:hover {
+    border-bottom: 2px solid #AE2012;
+
 }
 
 .intro-container {
@@ -44,7 +50,7 @@ header nav ul li:hover {
     flex-direction: column;
     gap: 30px;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .intro-image {
@@ -88,6 +94,7 @@ header nav ul li:hover {
     border-radius: 25px;
     cursor: pointer;
     text-transform: uppercase;
+    margin-top: 30px;
 }
 
 .first-button:hover {
@@ -101,7 +108,7 @@ header nav ul li:hover {
     gap: 70px;
     text-align: center;
     padding-inline: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .features {
@@ -123,7 +130,7 @@ header nav ul li:hover {
     flex-direction: column;
     gap: 20px;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 150px;
 }
 
 .section-three img {
@@ -158,14 +165,21 @@ header nav ul li:hover {
 .review-cards {
     display: flex;
     flex-direction: column;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
+}
+
+.review-cards::before {
+    content: open-quote;
+    font-size: 200px;
+    margin: 0 auto;
+    line-height: .3;
 }
 
 .cards {
     width: 70%;
     max-width: 600px;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     background-color: #005F73;
     padding: 20px;
     border-radius: 5px;
@@ -199,7 +213,8 @@ header nav ul li:hover {
     width: 90%;
     max-width: 700px;
     margin: auto;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
+    border-radius: 10px;
 }
 
 .subscribe > * {
@@ -325,6 +340,7 @@ footer img {
         gap: 20px;
         width: 80%;
         margin: 0 auto;
+        margin-bottom: 100px;
     }
 
     footer {
